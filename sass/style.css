@@ -37,4 +37,26 @@
   font-size: 38px;
   font-style: italic;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 .card-services {
+  font-weight: bold;
+}
+
+.card-text {
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.fa-basket-shopping {
+  text-align: center;
+  color: orange;
+  font-size: 30px;
+  background: white;
+  width: 60px;
+  line-height: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-color: orange;
+  border: 3px solid;
 }/*# sourceMappingURL=style.css.map */
