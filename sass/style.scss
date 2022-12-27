@@ -1,0 +1,31 @@
+.main-nav .nav-link {
+  color: white;
+}
+.main-card,
+.card-header {
+  background-image: url(../images/background.png);
+  border: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-card-body {
+  color: white;
+  padding: 130px;
+}
+.main-btn {
+  background-color: rgb(201, 161, 87);
+  padding: 10px 30px;
+  border-radius: 0;
+  font-weight: bold;
+}
+.main-card-body .card-text {
+  font-family: sans-serif;
+  font-size: 74px;
+  font-weight: bold;
+}
+.main-card-body .card-title {
+  font-size: 38px;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
