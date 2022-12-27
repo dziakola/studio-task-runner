@@ -1,12 +1,16 @@
 .main-nav .nav-link {
   color: white;
 }
-.main-card,
-.card-header {
+.main-card {
   background-image: url(../images/background.png);
   border: none;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+}
+.main-card .card-header {
+  border: none;
 }
 .main-card-body {
   color: white;
