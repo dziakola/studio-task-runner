@@ -1,6 +1,9 @@
+//navbigation//
+
 .main-nav .nav-link {
   color: white;
 }
+
 .main-card {
   background-image: url(../images/background.png);
   border: none;
@@ -9,39 +12,52 @@
   width: 100%;
   height: 800px;
 }
+
 .main-card .card-header {
   border: none;
 }
+
 .main-card-body {
   color: white;
   padding: 130px;
 }
+
 .main-btn {
   background-color: rgb(201, 161, 87);
   padding: 10px 30px;
   border-radius: 0;
   font-weight: bold;
+  border-color: rgb(201, 161, 87);
 }
+
 .main-card-body .card-text {
   font-family: sans-serif;
   font-size: 74px;
   font-weight: bold;
 }
+
 .main-card-body .card-title {
   font-size: 38px;
   font-style: italic;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-h2 .card-services {
-  font-weight: bold;
+
+//services//
+
+.card-services {
+  font-weight: 700;
 }
-.card-text {
+
+.card-text-services {
   font-style: italic;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.fa-basket-shopping {
+
+.fa-basket-shopping,
+.fa-laptop-code,
+.fa-lock {
   text-align: center;
   color: orange;
   font-size: 30px;
@@ -52,4 +68,10 @@ h2 .card-services {
   border-radius: 50%;
   border-color: orange;
   border: 3px solid;
+}
+.card-title-services {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
