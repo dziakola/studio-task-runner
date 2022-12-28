@@ -89,3 +89,32 @@
 .card-body-portfolio h5 {
   font-weight: 700;
 }
+
+//footer//
+
+.media ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+.media li {
+  font-size: 0;
+  margin: 0 16px 0 0;
+  float: left;
+}
+
+.media li i {
+  color: white;
+  font-size: 20px;
+  background: black;
+  width: 40px;
+  line-height: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.media li:hover i {
+  transform: scale(1.2);
+}
