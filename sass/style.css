@@ -109,4 +109,31 @@
 
 .media li:hover i {
   transform: scale(1.2);
+}
+
+@media (max-width: 767px) {
+  .main-card {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .main-card .nav-link {
+    font-size: 10px;
+  }
+  .main-card-body .card-title {
+    font-size: 25px;
+    padding: 0px;
+    margin: 20px;
+    overflow-wrap: break-word;
+  }
+  .main-card-body .card-text {
+    font-size: 25px;
+    padding: 0px;
+    margin: 20px;
+  }
+  .main-btn {
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 5px 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
