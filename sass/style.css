@@ -37,7 +37,8 @@
 .main-card-body .card-title {
   font-size: 38px;
   font-style: italic;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .card-services {
@@ -46,7 +47,8 @@
 
 .card-text-services {
   font-style: italic;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .fa-basket-shopping,
@@ -69,4 +71,16 @@
   margin-top: 25px;
   margin-bottom: 15px;
   font-weight: bold;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.portfolio {
+  background-color: #f7f7f7;
+}
+
+.card-body-portfolio p {
+  font-style: italic;
+}
+
+.card-body-portfolio h5 {
+  font-weight: 700;
+} /*# sourceMappingURL=style.css.map */
