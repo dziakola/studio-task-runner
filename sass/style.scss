@@ -128,10 +128,12 @@
   .main-card .nav-link {
     font-size: 10px;
   }
+  .main-card-body {
+    padding: 0px;
+  }
   .main-card-body .card-title {
     font-size: 25px;
     padding: 0px;
-    margin: 20px;
     overflow-wrap: break-word;
   }
   .main-card-body .card-text {
